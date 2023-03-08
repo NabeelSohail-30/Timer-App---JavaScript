@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="timer-container">
+        <div class="timer">
+            <div class="timer-label">Days</div>
+            <div class="timer-value" id="days"></div>
+        </div>
+        <div class="timer">
+            <div class="timer-label">Hours</div>
+            <div class="timer-value" id="hours"></div>
+        </div>
+        <div class="timer">
+            <div class="timer-label">Minutes</div>
+            <div class="timer-value" id="minutes"></div>
+        </div>
+        <div class="timer">
+            <div class="timer-label">Seconds</div>
+            <div class="timer-value" id="seconds"></div>
+        </div>
+    </div>
+    <div class="input-container">
+        <label for="timer-input">Enter time:</label>
+        <input type="time" id="timer-input">
+        <button id="start-timer">Start Timer</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

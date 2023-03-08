@@ -1,0 +1,34 @@
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.timer-label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timer-value {
+    font-size: 60px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="time"] {
+    margin: 0 10px;
+}
